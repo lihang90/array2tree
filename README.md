@@ -2,10 +2,10 @@
 
 ---
 
-##Change array to levels tree
+## Change array to levels tree
 
 Just like
-
+```
 [
     {
         id: 1,
@@ -18,9 +18,11 @@ Just like
         name: 'level 2'
     }
 ]
+```
 
 change to
 
+```
 [{
     id: 1,
     pid: 0,
@@ -34,3 +36,4 @@ change to
         }
     ]
 }]
+```
