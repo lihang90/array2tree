@@ -1,0 +1,26 @@
+{
+  "name": "array2tree",
+  "version": "1.0.0",
+  "description": "array to tree,depend on id and pid",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihang90/array2tree.git"
+  },
+  "keywords": [
+    "array2tree"
+  ],
+  "author": "lihang90",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lihang90/array2tree/issues"
+  },
+  "homepage": "https://github.com/lihang90/array2tree#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "should": "^13.2.1"
+  }
+}
