@@ -1,6 +1,8 @@
 # array2tree
 
-## Change array to levels tree
+![](https://travis-ci.org/JeremyWei/easy_mongo.svg?branch=master 'build passsing')
+
+Change array to levels tree
 
 Just like
 ```
@@ -39,10 +41,12 @@ convert to
 
 ## How to use
 
+* npm intall
 ```
 $ npm install array2tree --save
 ```
 
+* use
 ```
 const array2tree = require('../index');
 
