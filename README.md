@@ -1,7 +1,5 @@
 # array2tree
 
----
-
 ## Change array to levels tree
 
 Just like
