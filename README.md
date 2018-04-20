@@ -2,7 +2,7 @@
 
 ![](https://travis-ci.org/lihang90/array2tree.svg?branch=master)
 [![npm](https://img.shields.io/npm/v/array2tree.svg)](https://www.npmjs.com/package/array2tree)
-![npm](https://img.shields.io/npm/l/array2tree.svg)
+![npm](https://img.shields.io/npm/dm/array2tree.svg)
 
 
 
