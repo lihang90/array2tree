@@ -2,8 +2,8 @@
 
 ![](https://travis-ci.org/lihang90/array2tree.svg?branch=master)
 [![npm](https://img.shields.io/npm/v/array2tree.svg)](https://www.npmjs.com/package/array2tree)
-[![Codecov](https://img.shields.io/codecov/c/github/lihang90/array2tree.svg)](https://github.com/lihang90/array2tree/blob/master/test/index.test.js)
-![npm](https://img.shields.io/npm/l/express.svg)
+![npm](https://img.shields.io/npm/l/array2tree.svg)
+
 
 
 
