@@ -21,6 +21,7 @@
   "homepage": "https://github.com/lihang90/array2tree#readme",
   "dependencies": {},
   "devDependencies": {
-    "should": "^13.2.1"
+    "should": "^13.2.1",
+    "mocha": "^2.4.5"
   }
 }
