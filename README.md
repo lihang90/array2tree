@@ -1,7 +1,7 @@
 # array2tree
 
 ![](https://travis-ci.org/JeremyWei/easy_mongo.svg?branch=master 'build passsing')
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/array2tree)
+[![npm](https://img.shields.io/npm/v/array2tree.svg)](https://www.npmjs.com/package/array2tree)
 [![Codecov](https://img.shields.io/codecov/c/github/codecov/example-python.svg)](https://github.com/lihang90/array2tree/blob/master/test/index.test.js)
 
 
