@@ -53,7 +53,7 @@ $ npm install array2tree --save
 
 * use
 ```
-const array2tree = require('../index');
+const array2tree = require('array2tree');
 
 const twoLevelArr = [
     {
