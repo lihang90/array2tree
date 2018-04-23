@@ -5,9 +5,11 @@
 ![npm](https://img.shields.io/npm/dm/array2tree.svg)
 
 
-
+If you like it, you can star me on the github!
+[https://github.com/lihang90/array2tree](https://github.com/lihang90/array2tree)
 
 Convert array to tree, array item id is related pid.
+
 
 Just like
 ```
@@ -41,7 +43,7 @@ convert to
             children: [...]
         }
     ]
-}]
+},...]
 ```
 
 ## How to use
