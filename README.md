@@ -48,7 +48,7 @@ convert to
 
 ## How to use
 
-* npm intall
+* npm install
 ```
 $ npm install array2tree --save
 ```
