@@ -5,8 +5,8 @@
 ![npm](https://img.shields.io/npm/dm/array2tree.svg)
 
 
-[中文.md](https://github.com/lihang90/array2tree/blob/master/中文.md)
-[https://github.com/lihang90/array2tree](https://github.com/lihang90/array2tree){:target="_blank"}
+[中文.md](https://github.com/lihang90/array2tree/blob/master/中文.md)<br/>
+[https://github.com/lihang90/array2tree](https://github.com/lihang90/array2tree)
 
 Convert array to tree, array item id is related pid.
 
