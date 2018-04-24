@@ -1,7 +1,7 @@
 /*
- * 把一维数组菜单，生成树型菜单
- * 通过id 与 pid 作层级对应,子项放入children内
- * @params {Array} arr = [{id:1,pid:0,name:'一级'},{id:2,pid:1,name:'二级'},...]
+ * Convert array to tree, array item id is related pid.
+ * put child item into children field;
+ * @params {Array} arr = [{id:1,pid:0,name:'level 1'},{id:2,pid:1,name:'level 2'},...]
  * @return {Array}
  * */
 

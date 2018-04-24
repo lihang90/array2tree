@@ -11,7 +11,9 @@
     "url": "git+https://github.com/lihang90/array2tree.git"
   },
   "keywords": [
-    "array2tree"
+    "array2tree",
+    "tree",
+    "array"
   ],
   "author": "lihang90",
   "license": "MIT",
