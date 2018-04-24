@@ -6,14 +6,13 @@
 
 
 [中文.md](https://github.com/lihang90/array2tree/blob/master/中文.md)
-If you like it, you can star me on the github!
-[https://github.com/lihang90/array2tree](https://github.com/lihang90/array2tree)
+[https://github.com/lihang90/array2tree](https://github.com/lihang90/array2tree){:target="_blank"}
 
 Convert array to tree, array item id is related pid.
 
 
 Just like
-```
+```javascript
 [
     {
         id: 1,
@@ -31,7 +30,7 @@ Just like
 
 convert to
 
-```
+```javascript
 [{
     id: 1,
     pid: 0,
@@ -55,7 +54,7 @@ $ npm install array2tree --save
 ```
 
 * use
-```
+```javascript
 const array2tree = require('array2tree');
 
 const twoLevelArr = [
@@ -103,7 +102,7 @@ console.log(tree);
 */
 ```
 
-## How to test?
+## How to test
 
 ```
 $ npm install && npm test
