@@ -4,6 +4,7 @@
   "description": "array to tree,depend on id and pid ## 一维数组转换为树型结构",
   "main": "index.js",
   "scripts": {
+    "test": "mocha",
     "cover": "./node_modules/.bin/istanbul cover _mocha",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
