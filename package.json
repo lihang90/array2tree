@@ -4,7 +4,9 @@
   "description": "array to tree,depend on id and pid ## 一维数组转换为树型结构",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cover": "./node_modules/.bin/istanbul cover _mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,11 @@
   "homepage": "https://github.com/lihang90/array2tree#readme",
   "dependencies": {},
   "devDependencies": {
-    "should": "^13.2.1",
-    "mocha": "^2.4.5"
+    "coveralls": "^3.0.0",
+    "install": "^0.11.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "^1.3.0",
+    "should": "^13.2.1"
   }
 }

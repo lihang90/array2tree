@@ -1,6 +1,7 @@
 # array2tree
 
 ![](https://travis-ci.org/lihang90/array2tree.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/lihang90/array2tree/badge.svg?branch=master)](https://coveralls.io/github/lihang90/array2tree?branch=master)
 [![npm](https://img.shields.io/npm/v/array2tree.svg)](https://www.npmjs.com/package/array2tree)
 ![npm](https://img.shields.io/npm/dm/array2tree.svg)
 
