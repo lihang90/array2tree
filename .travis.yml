@@ -9,3 +9,4 @@ cache:
 
 after_script:
     - npm run cover
+    - npm run coveralls
