@@ -102,3 +102,34 @@ describe("params no 'id' ", function () {
         should(array2tree(badLevelArr)).eql(false);
     });
 });
+
+const definedParamArr = [
+    {
+        myId: 1,
+        parentId: 0,
+        name: 'level 1'
+    },
+    {
+        myId: 2,
+        parentId: 1,
+        name: 'level 2'
+    }
+];
+
+describe("defined self params", function () {
+    it("Defined self related params,like 'myId' and 'parentId'", function () {
+        should(array2tree(definedParamArr,'myId', 'parentId')).eql([{
+            myId: 1,
+            parentId: 0,
+            name: 'level 1',
+            children: [
+                {
+                    myId: 2,
+                    parentId: 1,
+                    name: 'level 2',
+                    children: []
+                }
+            ]
+        }]);
+    });
+});

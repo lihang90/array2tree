@@ -10,7 +10,8 @@
 [中文.md](https://github.com/lihang90/array2tree/blob/master/中文.md)<br/>
 [https://github.com/lihang90/array2tree](https://github.com/lihang90/array2tree)
 
-Convert array to tree, array item id is related pid.
+Convert array to tree, array item id is related pid default.<br/>
+Defined yourself related params in parameter you can.
 
 
 Just like
@@ -59,7 +60,7 @@ $ npm install array2tree --save
 ```javascript
 const array2tree = require('array2tree');
 
-const twoLevelArr = [
+const testArr = [
     {
         id: 1,
         pid: 0,
@@ -77,7 +78,7 @@ const twoLevelArr = [
     }
 ];
 
-const tree = array2tree(twoLevelArr);
+const tree = array2tree(testArr);
 
 console.log(tree);
 /*
@@ -94,6 +95,55 @@ console.log(tree);
                     {
                         id: 3,
                         pid: 2,
+                        name: 'level 3',
+                        children: []
+                    }
+                ]
+            }
+        ]
+    }]
+*/
+```
+
+* use parameter by yourself
+```javascript
+const array2tree = require('array2tree');
+
+const testArr = [
+    {
+        myId: 1,
+        parentId: 0,
+        name: 'level 1'
+    },
+    {
+        myId: 2,
+        parentId: 1,
+        name: 'level 2'
+    },
+    {
+        myId: 3,
+        parentId: 2,
+        name: 'level 3'
+    }
+];
+
+const tree = array2tree(testArr, 'myId', 'parentId');
+
+console.log(tree);
+/*
+    [{
+        myId: 1,
+        parentId: 0,
+        name: 'level 1',
+        children: [
+            {
+                myId: 2,
+                parentId: 1,
+                name: 'level 2',
+                children: [
+                    {
+                        myId: 3,
+                        parentId: 2,
                         name: 'level 3',
                         children: []
                     }
