@@ -5,14 +5,11 @@
  * @params {Array} arr = [{id:1,pid:0,name:'level 1'},{id:2,pid:1,name:'level 2'},...]
  * @return {Array}
  * */
-
 function array2tree(arr, keyName = 'id', parentKeyName = 'pid') {
-
     if (!Array.isArray(arr)) {
         console.error('params arr need Array');
         return false;
     }
-
     let hasError = false;
     arr.forEach((v, i)=> {
         if (!(keyName in v)) {
@@ -24,7 +21,6 @@ function array2tree(arr, keyName = 'id', parentKeyName = 'pid') {
         }
     });
     if(hasError){return false}
-
     let map = {};
     arr.forEach(v=> {
         v.children = [];
@@ -36,5 +32,4 @@ function array2tree(arr, keyName = 'id', parentKeyName = 'pid') {
     });
     return map[0].children;
 }
-
 module.exports = array2tree;

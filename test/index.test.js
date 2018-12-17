@@ -103,6 +103,20 @@ describe("params no 'id' ", function () {
     });
 });
 
+const badParnetLevelArr = [{
+    id : 1,
+    name : 'level 1'
+},{
+    id : 2,
+    name : 'level 2'
+}
+];
+describe("params no 'pid' ", function () {
+    it("params array item key has no 'pid'", function () {
+        should(array2tree(badParnetLevelArr)).eql(false);
+    });
+});
+
 const definedParamArr = [
     {
         myId: 1,
