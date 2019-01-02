@@ -1,6 +1,6 @@
 {
   "name": "array2tree",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "array to tree,depend on id and pid ## 一维数组转换为树型结构",
   "main": "index.js",
   "scripts": {

@@ -10,17 +10,14 @@ function array2tree(arr, keyName = 'id', parentKeyName = 'pid') {
         console.error('params arr need Array');
         return false;
     }
-    let hasError = false;
-    arr.forEach((v, i)=> {
-        if (!(keyName in v)) {
-            console.error(`params index ${i} has not key ${keyName}`);
-            hasError = true;
-        }else if(!(parentKeyName in v)){
-            console.error(`params index ${i} has not key ${parentKeyName}`);
-            hasError = true;
+    for(let i = 0; i < arr.length; i++){
+        if (!(keyName in arr[i]) || !(parentKeyName in arr[i])) {
+            console.error(`params index ${i} has not key ${keyName} or ${parentKeyName}`);
+            console.log(i);
+            return false;
+            break;
         }
-    });
-    if(hasError){return false}
+    }
     let map = {};
     arr.forEach(v=> {
         v.children = [];
