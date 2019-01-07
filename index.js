@@ -13,9 +13,7 @@ function array2tree(arr, keyName = 'id', parentKeyName = 'pid') {
     for(let i = 0; i < arr.length; i++){
         if (!(keyName in arr[i]) || !(parentKeyName in arr[i])) {
             console.error(`params index ${i} has not key ${keyName} or ${parentKeyName}`);
-            console.log(i);
             return false;
-            break;
         }
     }
     let map = {};
